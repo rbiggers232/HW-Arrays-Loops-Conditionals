@@ -77,3 +77,62 @@ jimHaff.pop(), jimHaff.push('Atlanta', 'Oakland', 'Concord');
 //fuck splice
 
 //console.log(jimHaff)
+
+// Yell at the Ninja Turtles
+//Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+
+//Use a for loop to call .toUpperCase() on each of them and print out the result.
+
+//Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, make the letters 
+//alternate back and forth between uppercase and lowercase
+
+const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+for (i = 0; i < ninjaTurtles.length; i++) {
+    
+    //console.log(ninjaTurtles[i])
+}
+
+//Return of the Closets
+//Below, we've given you examples of Kristyn and Thom's closets modeled 
+//as data in JavaScript. 
+//Use this data to answer the following questions
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  kristynsCloset.shift();
+  const kristynsShoe = 'kristynsShoe';
+  thomsCloset[2].push(kristynsShoe);
+
+  const thomsOutfit = thomsCloset[0][1]  + thomsCloset[1][1] +  thomsCloset[2][0];
+
+  console.log(thomsOutfit)

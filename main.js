@@ -135,4 +135,9 @@ const kristynsCloset = [
 
   const thomsOutfit = thomsCloset[0][1]  + thomsCloset[1][1] +  thomsCloset[2][0];
 
-  console.log(thomsOutfit)
+  //console.log(thomsOutfit)
+  
+  for (let i = 0; i < kristynsCloset.length; i++) {
+     
+      //console.log('"WHIRR: Now washing ' + kristynsCloset[i])
+  }

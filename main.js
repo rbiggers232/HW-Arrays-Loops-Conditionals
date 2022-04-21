@@ -43,12 +43,37 @@
 
 //If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number, "Fizz", or "Buzz"
 
-const sum = 'fizz';
-const yum = 'buzz';
-const tum = 'fizzbuzz';
+//const sum = 'fizz';
+//const yum = 'buzz';
+//const tum = 'fizzbuzz';
 
-for (i = 1; i <= 100; i++) {
-    console.log(i)
-    if (i % 3 === 0)
-    console.log(sum)
-}
+//for (i = 1; i <= 100; i++) {
+  //  console.log(i)
+    //if (i % 3 === 0) {
+    //console.log(sum)
+    //}
+//}
+
+// Use the following arrays to answer the questions below (name, age, hometown):
+
+const kenny = ["Kenny", 1000, "Austin"];
+const jimHaff = ["Jim H", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const jimClark = ["Jim C", 186, "LA"];
+const ryan = ["Ryan", 65, "Denver"];
+
+kenny[0] = 'Gameboy';
+
+jimClark[1] = jimClark[1] + 1;
+
+ryan.pop();
+ryan.push('Gotham City');
+
+reuben.pop();
+reuben.push('Chicago');
+
+jimHaff.pop(), jimHaff.push('Atlanta', 'Oakland', 'Concord');
+
+//fuck splice
+
+//console.log(jimHaff)
